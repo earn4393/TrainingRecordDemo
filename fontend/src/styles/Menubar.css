@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.leftside-menu {
+  background-color: #D8DBE2;
+  position: fixed;
+  display: flex;  
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  height: 100%;
+  width: 250px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text-menu {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+
+.active {
+  background-color: #6A88A8;
+  color: #FFFFFF;
+  box-shadow: 1px 1px 3px rgba(73, 88, 103, 0.3);
+  transition: all 0.3s ease;
+}
+
+
+.text-link {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-menu{
+    max-width:  80%;
+    max-height: 50%;
+}
+
+.closebtn {
+  font-size: 36px;
+  margin: 10px;
+}
+
+.wrap-closebtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.login-out{
+  background-color: #6289b5;
+  cursor: pointer;
+  color: #FFFFFF;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+
+@media (hover: hover) {
+  /* when hover is supported */
+  .login-out:hover{
+    background-color: #495867;
+    color: #FFFFFF;
+  }
+
+  nav :hover {
+  background: #FFFFFF;
+  color: #6A88A8;
+  transition: all 0.3s ease;
+}
+}
+
+
+
+
+

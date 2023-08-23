@@ -1,0 +1,228 @@
+.dashboard-container{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.WrapperLayout{
+    display: flex;
+    flex:6;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px 20px 20px 20px;
+}
+
+.WrapperMiddle{
+    display: flex;
+    justify-content: center;
+}
+
+.WrapperEnd{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;  
+}
+
+.Headtitle {
+    font-weight: bolder;
+    color: #6a88a8;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5em;
+    letter-spacing: 5px;
+ } 
+
+ .HeadPopUp {
+  font-weight: bolder;
+  color: #6a88a8;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+} 
+
+.bin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px; 
+    background-color: #D8DBE2;
+    border-style:none ;
+    color: #6289b5;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .bin:hover{
+    background-color: #495867;
+  }
+  
+/*  detail course */
+  .margin-between-detail{
+    margin: 5px;
+  }
+
+/* end  */
+
+/* home */
+  .logo-home{
+    max-width: 60%;
+    height: auto;
+}
+
+.contentLogo-home{
+  display: flex;
+  justify-content: center;
+}
+
+/* end  */
+
+
+
+.header-table{
+    background-color: #D8DBE2;
+  }
+
+table  th,table td{
+  padding: 10px;
+  text-align: center;
+}
+
+.colLeft{
+  text-align: left;
+}
+
+
+.content-bin{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.description-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+    
+.showData{
+    margin: 10px;
+    font-size: 16px;
+  }
+
+
+.open-nav{
+  font-size: 25px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.wrapp-openNav{
+  margin: 30px 10px 0px 20px;
+  background-color: #6289b5;
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Icons{
+  width: 20px;
+  height: 20px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+
+.modal-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #D9D9D9;
+  padding: 14px 28px;
+  border-radius: 3px;
+  width: 600px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+  font-size: 14px;
+}
+
+.model-header{
+  margin-top: 20px;
+}
+
+.bin-save{
+  padding: 5px 20px;
+  font-size: 16px;
+}
+
+.wrapp-search{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 50%;
+}
+
+
+
+@media only screen and (min-height: 700px) {
+  .modal-content {
+    width: 600px;
+    top: 35%;
+    left: 50%;
+  }
+
+  .Headtitle {
+    margin-top: 20px;
+    font-size: 2.5em;
+ }
+ 
+ .model-body{
+  width: 100%;
+ }
+
+ #CourseStart , #CourseEnd{
+  width: 150px;
+  height: 30px;
+ }
+  
+}
+
+
+
+
+
+  
+  

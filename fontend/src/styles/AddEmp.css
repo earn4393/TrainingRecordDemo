@@ -1,0 +1,59 @@
+.model-body-emp{
+    display: grid;
+    grid-template-columns: 1.1fr 2fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#itemEmp3,#itemEmp4,#itemEmp5,#itemEmp6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.itemEmp{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wrapp-itemEmp3{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#itemEmp4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 20px;
+}
+
+  .input-emp{
+    width: 35%;
+    border-radius: 3px;
+    border: 1px solid ;
+    font-size: 14px;
+  }
+
+  #remark{
+    border-radius: 3px;
+    border: 1px solid ;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .redioBox{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redioBin{
+    width: 20px;
+    height: 20px;
+  }
+

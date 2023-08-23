@@ -1,0 +1,101 @@
+.wrapper-bin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.model-body{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  column-gap: 5px;
+  /* border: red solid 2px; */
+}
+
+#item2 ,#item6{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+#item3,#item4,#item7,#item11{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#item11{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#item7{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* border: black solid 2px; */
+}
+
+.input-course{
+  border-radius: 3px;
+  border: 1px solid ;
+  font-size: 14px;
+}
+
+.input-course-date{
+  border-radius: 3px;
+  border: 1px solid ;
+  font-size: 14px;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #6a88a8;
+  color: #6a88a8;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #6a88a8;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #6a88a8;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: grey;
+}
+
+.date{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
